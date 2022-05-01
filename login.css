@@ -1,0 +1,146 @@
+#login i{
+    font-size: 25px;
+}
+#login h3{
+    margin-bottom: 25px;
+    margin-top: -35px;
+}
+.logo{
+    margin-bottom: 25px;
+}
+.tab{
+    margin-bottom: 10px;
+}
+.gen{
+    text-align: left !important;
+    font-size: large;
+}
+.gen label {
+    vertical-align: middle;
+    }
+#log_1{
+    max-width: 500px;
+
+}
+
+@media (max-width: 500px) {
+    .gen{
+        text-align: center !important;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #login h3{
+        font-size: 20px !important;
+        margin-bottom: 20px;
+        margin-top: -35px;
+        margin-right: -20px;
+        margin-left: -20px;
+
+    }
+    #logbut{
+        font-size: 15px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+#admi .nav-link{
+   font-size: 20px;
+}
+/*
+.table {
+    border-collapse: separate;
+    border-spacing:0 20px;
+}
+*/
+.mr-1{
+    margin-right: 10px;
+}
+.nav-tab .active{
+    border-top: solid 1px #ccc !important;
+    border-bottom: solid 1px #ccc !important;
+    border-left: solid 1px #ccc !important;
+    border-right: solid 1px white !important;
+    border-bottom-left-radius: 5px ;
+    border-top-left-radius: 5px ;
+    background-color:white;
+    color: black !important;
+}
+.nav-tab .active::after{
+    content: ' ';
+    position: absolute;
+    background-color: white;
+    width: 5px;
+    height: 42px;
+    right: 0;
+    margin-top: -9px;
+    margin-right: -5.5px;
+
+
+}
+.card-left ul li :hover{
+    background-color: rgb(218, 215, 215) !important;
+}
+.ntboard-1 a{
+    color: white;
+   
+    
+}  
+.ntboard-1 p{
+    background-color:rgb(20, 119, 231);; 
+    padding:5px;
+    border:1px solid #000;
+
+    margin:-2px;
+    
+}
+
+@media (max-width: 500px) {
+    .res{
+        font-size: 10px !important;
+        
+    }
+    .modal-title-class{
+        text-align: center !important;
+        margin-left: 125px !important;
+        
+    }
+    #table_mark{
+        word-spacing: 50px !important;
+    }
+     
+}
+.modal-title-class{
+    text-align: center !important;
+    margin-left: 170px;
+    
+}
+.css-serial {
+    margin-top: -5px;
+  }
+
+#table_mark{
+    word-spacing: 200px;
+}
+ @media (max-width:100px) {
+    #table_mark{
+        word-spacing: 10px !important;
+    }
+     
+ } 
+ .ntboar{
+    width:100%;
+    height:auto;
+}
+.ntboar a{
+    color: white;
+   
+    
+}  
+.ntboar p{
+    background-color:rgb(20, 119, 231);; 
+    padding:5px;
+    border:1px solid #000;
+    margin:-2px;
+    
+}
